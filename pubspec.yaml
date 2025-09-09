@@ -1,0 +1,47 @@
+name: guidey
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  easy_localization: ^3.0.5
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.0.0
+  font_awesome_flutter: ^10.7.0
+  dash_chat_2: ^0.0.21
+  chat_gpt_sdk: ^3.1.5
+  intl: 0.20.2
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  http: ^1.1.0
+  google_generative_ai: ^0.4.7
+  flutter_screenutil: ^5.9.3
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/save.png"
+
+dependency_overrides:
+  intl: 0.20.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/lang_a.dart
+    - assets/lang_e.dart
